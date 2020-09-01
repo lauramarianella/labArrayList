@@ -20,6 +20,7 @@ public class Casting {
         ArrayList<Object> list = new ArrayList<>();
         list.add(new Circle(1.0));
         list.add(new Date());
+        list.add("String");
         list.add(new Rectangle(2.0, 3.0));
         
         for(int i = 0; i<list.size(); i++){
